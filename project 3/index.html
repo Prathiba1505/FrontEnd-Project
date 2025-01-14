@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#talents">Talents</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hello! I'm <strong>Prathiba G</strong>, a dedicated and creative professional with expertise in <strong>FrontEnd Development</strong>. I strive to bring innovation and functionality to every project I undertake.</p>
+    <p><strong>My Mission:</strong> To build impactful solutions that inspire and empower others.</p>
+    <a href="resume.pdf" download class="btn">Download My Resume</a>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <div class="experience-item">
+      <h3>FrontEnd Developer</h3>
+      <p><strong>Company:</strong> Azzz Company</p>
+      <p><strong>Duration:</strong> 01.01.2025 - 30.12.2025</p>
+      <p>Key Responsibilities:</p>
+      <ul>
+        <li>Developed and maintained Food delivery App.</li>
+        <li>Collaborated with teams to ensure timely delivery.</li>
+        <li>Implemented new features and optimized performance.</li>
+      </ul>
+    </div>
+    <div class="experience-item">
+      <h3>BackEnd Developer</h3>
+      <p><strong>Company:</strong> Bzzz</p>
+      <p><strong>Duration:</strong> 01.01.2026 - 30.12.2026</p>
+      <p>Key Responsibilities:</p>
+      <ul>
+        <li>Led a team of developers to create Social Media.</li>
+        <li>Enhanced system efficiency by React.</li>
+        <li>Worked directly with clients to gather requirements and deliver solutions.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="talents" class="section">
+    <h2>Talents & Expertise</h2>
+    <div class="talents-grid">
+      <div class="talent-item">
+        <h3>Web Development</h3>
+        <p>Building responsive and accessible websites using modern tools like HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="talent-item">
+        <h3>UI/UX Design</h3>
+        <p>Creating intuitive designs that enhance user experience and engagement.</p>
+      </div>
+      <div class="talent-item">
+        <h3>Problem-Solving</h3>
+        <p>Analyzing complex issues and delivering efficient, scalable solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Prathiba. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
