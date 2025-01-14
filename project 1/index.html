@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <h1>Image Gallery</h1>
+        <div class="image-display">
+            <button class="nav-arrow" id="prev-arrow">&#10094;</button>
+            <img id="main-image" src="pic1.webp" alt="Gallery Image" height="350px" width="550px">
+            <button class="nav-arrow" id="next-arrow">&#10095;</button>
+        </div>
+        <div class="thumbnails">
+            <img src="pic1.webp" alt="Thumbnail 1" class="thumbnail" data-index="0" height="350px" width="550px">
+            <img src="pic2.jpg" alt="Thumbnail 2" class="thumbnail" data-index="1" height="350px" width="550px">
+            <img src="pic3.jpg" alt="Thumbnail 3" class="thumbnail" data-index="2" height="350px" width="550px">
+            <img src="pic4.jpg" alt="Thumbnail 4" class="thumbnail" data-index="3" height="350px" width="550px">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
